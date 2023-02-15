@@ -301,6 +301,7 @@ a:hover {
 
 .examples {
   padding-bottom: 120px;
+  display: none;
 }
 
 .examples-list {
@@ -916,5 +917,18 @@ button:focus {
   .team {
     padding-top: 120px;
     padding-bottom: 120px;
+  }
+  .examples {
+    display: table;
+  }
+  .section-title {
+    margin-bottom: 72px;
+  }
+  .examples-item {
+    width: calc((100% - 48px) / 3);
+  }
+  .examples-container {
+    padding-left: 156px;
+    padding-right: 156px;
   }
 }
