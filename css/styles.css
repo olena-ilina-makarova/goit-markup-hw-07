@@ -43,10 +43,11 @@ img {
   display: block;
   max-width: 100%;
   height: auto;
+  width: 100%;
 }
 
 .container {
-  width: 1158px;
+  width: 100%;
   padding-left: 15px;
   padding-right: 15px;
   margin-left: auto;
@@ -316,8 +317,8 @@ a:hover {
 
 .team {
   background-color: var(--secondary-background-color);
-  padding-top: 120px;
-  padding-bottom: 120px;
+  padding-top: 98px;
+  padding-bottom: 128px;
 }
 
 .title-our-team {
@@ -334,10 +335,12 @@ a:hover {
   display: flex;
   margin: 0px auto;
   gap: 24px;
+  flex-wrap: wrap;
 }
 
 .pic {
-  width: calc((100% - 72px) / 4);
+  /* width: calc((100% - 72px) / 4); */
+  width: 100%;
   background-color: var(--primary-wh-color);
   margin-top: 72px;
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
@@ -883,4 +886,35 @@ button:focus {
 
 .subscribe-form-submit {
   margin: 0;
+}
+
+@media screen and (min-width: 480px) {
+  .container {
+    max-width: 294px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 582px;
+  }
+  .team {
+    padding-bottom: 104px;
+  }
+  .pic {
+    width: calc((100% - 24px) / 2);
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .container {
+    max-width: 1440px;
+  }
+  .pic {
+    width: calc((100% - 72px) / 4);
+  }
+  .team {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
 }
