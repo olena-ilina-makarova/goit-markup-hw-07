@@ -241,11 +241,12 @@ a:hover {
   background-color: #f4f4fd;
   border-radius: 4px;
   margin-bottom: 8px;
+  display: none;
 }
 
 .features {
-  padding-top: 120px;
-  padding-bottom: 120px;
+  padding-top: 96px;
+  padding-bottom: 96px;
 }
 
 .section-title {
@@ -257,14 +258,27 @@ a:hover {
   text-align: center;
 }
 
-.features-list {
-  display: flex;
-  gap: 24px;
+.title {
+  color: var(--heading-text);
+  font-size: 36px;
+  line-height: 1.1;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
 }
 
-.features-item,
-.features-subtitle {
-  min-width: 264px;
+.features-list {
+  display: flex;
+  gap: 72px;
+  flex-wrap: wrap;
+}
+
+.features-item {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8px;
 }
 
 .visually-hidden {
@@ -280,21 +294,24 @@ a:hover {
   margin: -1px;
 }
 
-.features-list .title {
+/* .features-list .title {
   width: calc((100% - 72px) / 4);
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--heading-text);
-}
+} */
 
 .features-subtitle {
+  font-weight: 500;
   font-size: 16px;
+  line-height: 24px;
+  /* font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--body-text);
-  margin-top: 8px;
+  margin-top: 8px; */
 }
 
 /* Work examples */
@@ -317,9 +334,13 @@ a:hover {
 /* Our Team */
 
 .team {
-  background-color: var(--secondary-background-color);
-  padding-top: 98px;
+  padding-top: 96px;
   padding-bottom: 128px;
+  background-color: var(--secondary-background-color);
+}
+
+.team-container {
+  max-width: 264px;
 }
 
 .title-our-team {
@@ -899,11 +920,15 @@ button:focus {
   .container {
     max-width: 582px;
   }
+
   .team {
     padding-bottom: 104px;
   }
   .pic {
     width: calc((100% - 24px) / 2);
+  }
+  .team-container {
+    max-width: 602px;
   }
 }
 
@@ -930,5 +955,8 @@ button:focus {
   .examples-container {
     padding-left: 156px;
     padding-right: 156px;
+  }
+  .team-container {
+    max-width: 1128px;
   }
 }
