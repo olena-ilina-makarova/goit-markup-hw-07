@@ -441,11 +441,12 @@ a:hover {
 
 .customers-list {
   display: flex;
-  gap: 16px;
   margin-top: 72px;
-  margin-bottom: 76px;
+  /* margin-bottom: 96px; */
   flex-wrap: wrap;
   justify-content: center;
+  row-gap: 72px;
+  column-gap: 16px;
 }
 
 .customers-item {
@@ -960,6 +961,11 @@ button:focus {
     height: 88px;
     width: 168px;
   }
+
+  .customers-list {
+    column-gap: 24px;
+    row-gap: 72px;
+  }
 }
 
 @media screen and (min-width: 1440px) {
@@ -1003,6 +1009,7 @@ button:focus {
     gap: 24px;
     display: flex;
     flex-wrap: nowrap;
+    justify-content: center;
   }
   .title {
     font-weight: 500;
@@ -1020,6 +1027,5 @@ button:focus {
   }
   .customers-list {
     gap: 24px;
-    margin-bottom: 120px;
   }
 }
