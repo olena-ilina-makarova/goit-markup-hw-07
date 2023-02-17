@@ -1017,15 +1017,10 @@ button:focus {
     line-height: 1.2;
   }
   .customers-container {
-    max-width: 1158px;
+    max-width: 1128px;
   }
 
-  .customers-item {
-    height: 88px;
-    width: 168px;
-    gap: 24px;
-  }
   .customers-list {
-    gap: 24px;
+    flex-wrap: nowrap;
   }
 }
