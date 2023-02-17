@@ -318,6 +318,7 @@ a:hover {
 
 .examples {
   padding-bottom: 120px;
+  margin: 0 auto;
 }
 
 .examples-container {
@@ -430,19 +431,26 @@ a:hover {
 /* <!-- ----------Customers--------- --> */
 
 .customers {
-  padding-top: 130px;
-  padding-bottom: 120px;
+  padding-top: 96px;
+  padding-bottom: 96px;
+  margin: 0 auto;
+}
+.customers-container {
+  margin: 0 auto;
 }
 
 .customers-list {
   display: flex;
-  gap: 24px;
+  gap: 16px;
   margin-top: 72px;
+  margin-bottom: 76px;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .customers-item {
-  width: calc((100% - 120px) / 6);
   height: 88px;
+  width: 190px;
 }
 
 .customers-link {
@@ -917,6 +925,9 @@ button:focus {
   .container {
     max-width: 294px;
   }
+  .customers-item {
+    width: calc((100% - 16px) / 2);
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -945,11 +956,19 @@ button:focus {
     row-gap: 72px;
     column-gap: 24px;
   }
+  .customers-item {
+    height: 88px;
+    width: 168px;
+  }
 }
 
 @media screen and (min-width: 1440px) {
   .container {
     max-width: 1440px;
+  }
+
+  .features-container {
+    max-width: 1128px;
   }
   .pic {
     width: calc((100% - 72px) / 4);
@@ -979,9 +998,6 @@ button:focus {
   }
   .features-icon {
     display: flex;
-    /* justify-content: center;
-    align-items: center;
-    display: table; */
   }
   .features-list {
     gap: 24px;
@@ -992,5 +1008,15 @@ button:focus {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
+  }
+
+  .customers-item {
+    height: 88px;
+    width: 168px;
+    gap: 24px;
+  }
+  .customers-list {
+    gap: 24px;
+    margin-bottom: 120px;
   }
 }
