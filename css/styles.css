@@ -984,7 +984,7 @@ button:focus {
     padding-bottom: 120px;
   }
   .examples {
-    display: table;
+    display: block;
     padding-left: 15px;
     padding-right: 15px;
   }
@@ -1022,5 +1022,6 @@ button:focus {
 
   .customers-list {
     flex-wrap: nowrap;
+    gap: 24px;
   }
 }
