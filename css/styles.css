@@ -318,6 +318,9 @@ a:hover {
 
 .examples {
   padding-bottom: 120px;
+}
+
+.examples-container {
   display: none;
 }
 
@@ -957,6 +960,8 @@ button:focus {
   }
   .examples {
     display: table;
+    padding-left: 15px;
+    padding-right: 15px;
   }
   .section-title {
     margin-bottom: 72px;
@@ -965,6 +970,7 @@ button:focus {
     width: calc((100% - 48px) / 3);
   }
   .examples-container {
+    display: table;
     padding-left: 156px;
     padding-right: 156px;
   }
@@ -973,8 +979,9 @@ button:focus {
   }
   .features-icon {
     display: flex;
-    justify-content: center;
+    /* justify-content: center;
     align-items: center;
+    display: table; */
   }
   .features-list {
     gap: 24px;
