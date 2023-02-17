@@ -1009,6 +1009,9 @@ button:focus {
     font-size: 20px;
     line-height: 1.2;
   }
+  .customers-container {
+    max-width: 1158px;
+  }
 
   .customers-item {
     height: 88px;
