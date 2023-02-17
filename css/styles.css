@@ -921,6 +921,11 @@ button:focus {
     max-width: 582px;
   }
 
+  .features-item {
+    width: calc((100% - 24px) / 2);
+    justify-content: flex-start;
+  }
+
   .team {
     padding-bottom: 104px;
   }
@@ -929,6 +934,13 @@ button:focus {
   }
   .team-container {
     max-width: 602px;
+  }
+  .features-container {
+    max-width: 766px;
+  }
+  .features-list {
+    row-gap: 72px;
+    column-gap: 24px;
   }
 }
 
