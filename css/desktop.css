@@ -2,6 +2,18 @@
   .container {
     max-width: 1440px;
   }
+  .auth-nav {
+    display: flex;
+    gap: 40px;
+    flex-direction: row;
+  }
+  .container.header-container {
+    padding-bottom: 20px;
+  }
+  .logo {
+    margin-left: 156px;
+    margin-right: 76px;
+  }
   .hero {
     background-image: var(--grd), url(../images/people-office\ 1.jpg);
   }

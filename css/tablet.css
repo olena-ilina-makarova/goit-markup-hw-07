@@ -11,7 +11,10 @@
     display: flex;
     align-items: center;
     padding-top: 24px;
-    padding-bottom: 21px;
+  }
+
+  .container.header-container {
+    padding-bottom: 8px;
   }
 
   .header-navigation {
@@ -35,6 +38,9 @@
     background-color: var(--accent-color);
   }
 
+  .logo {
+    margin-right: 120px;
+  }
   .site-nav {
     display: flex;
     gap: 40px;
@@ -74,7 +80,7 @@
 
   .auth-nav {
     display: flex;
-    gap: 40px;
+    flex-direction: column;
   }
 
   .auth-nav .link-mail {
