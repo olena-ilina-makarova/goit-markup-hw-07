@@ -8,6 +8,15 @@
     flex-direction: row;
     margin-right: 156px;
   }
+
+  .auth-nav .link-mail {
+    font-size: 16px;
+  }
+
+  .auth-nav .link-tel {
+    font-size: 16px;
+  }
+
   .container.header-container {
     max-width: 1440px;
     padding-bottom: 20px;
@@ -20,7 +29,8 @@
     background-image: var(--grd), url(../images/people-office\ 1.jpg);
   }
   .hero-container {
-    padding: 188px 472px;
+    padding-top: 188px;
+    padding-bottom: 188px;
   }
   .hero-title {
     font-size: 56px;
@@ -85,6 +95,21 @@
   }
 
   .footer-container {
-    max-width: 1128px;
+    max-width: 1440px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
   }
+
+  .webstudio {
+    margin-right: 120px;
+    padding-left: 0;
+  }
+
+  .socialmedia {
+  }
+
+  /* .subscribe-form {
+    width: 453px;
+  } */
 }

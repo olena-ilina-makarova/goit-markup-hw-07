@@ -118,11 +118,27 @@
   .hero {
     background-image: var(--grd), url(../images/Dark-bg-tabl.jpg);
   }
+  .hero-container {
+    padding: 112px 137px 108px 112px;
+    width: 768px;
+  }
 
+  .hero-title {
+    font-size: 56px;
+    line-height: 1.1;
+  }
+  .examples {
+    padding-bottom: 96px;
+  }
+  .footer {
+    padding-top: 0;
+    padding-bottom: 96px;
+  }
   .footer-container {
     display: flex;
     column-gap: 24px;
     row-gap: 72px;
+    padding-top: 96px;
   }
   .webstudio {
     align-items: flex-start;
@@ -155,13 +171,6 @@
     .hero {
       background-image: var(--grd), url(../images/people-office\ 1-2x.jpg);
     }
-  }
-  .hero-container {
-    padding: 112px 137px 108px 112px;
-  }
-  .hero-title {
-    font-size: 56px;
-    line-height: 1.1;
   }
 
   .features-item {
