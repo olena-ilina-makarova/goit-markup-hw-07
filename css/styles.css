@@ -107,100 +107,104 @@ a:hover {
   color: var(--accent-color);
 }
 
-/* site nav */
-
-.header {
-  border-bottom: 1px solid #e7e9fc;
-}
-
-.header-container {
-  display: flex;
-  align-items: center;
-  padding-top: 24px;
-  padding-bottom: 21px;
-}
-
-.header-navigation {
-  display: flex;
-  align-items: center;
-  margin-right: auto;
-}
-
-.current {
-  position: relative;
-}
-
-.current::after {
-  content: "";
-  position: absolute;
-  left: 0;
-  bottom: -24px;
-  width: 100%;
-  height: 4px;
-  border-radius: 2px;
-  background-color: var(--accent-color);
+.address {
+  display: none;
 }
 
 .site-nav {
+  display: none;
+}
+.container.mob-container {
+  max-width: 428px;
+  height: 100%;
   display: flex;
-  gap: 40px;
+  flex-direction: column;
+  justify-content: space-between;
+  overflow-y: auto;
+}
+/* .mob-menu > .mob-container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+} */
+
+.mob-menu {
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  width: 100%;
+  height: 100vh;
+  background-color: #ffffff;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.modal-closee {
+  display: block;
+  margin-left: auto;
 }
 
-.site-nav .link-header {
+.mob-menu-link {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.1;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  text-transform: capitalize;
+}
+
+/* .mob-menu-list {
+  margin-bottom: 284px;
+} */
+
+.mob-menu-item:not(last-child) {
+  margin-bottom: 40px;
+}
+
+.mob-menu-kontakt {
+  display: flex;
+  flex-wrap: wrap;
+}
+.mob-menu-tel {
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 1.1;
+  text-transform: capitalize;
+  color: #4d5ae5;
+  margin-bottom: 40px;
+}
+.mob-menu-mail {
   font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
+  font-size: 20px;
+  line-height: 1.2;
   letter-spacing: 0.02em;
-  color: var(--heading-text);
-  transition: var(--transition-property) var(--transition-duration)
-    cubic-bezier(0.4, 0, 0.2, 1);
+  color: #434455;
+  margin-bottom: 48px;
 }
 
-.site-nav .link-header:hover,
-.site-nav .link-header:focus {
-  color: var(--accent-color);
-}
-
-.site-nav .link-header.current {
-  color: var(--accent-color);
-}
-
-/* site auth */
-.address {
-  font-style: normal;
-}
-
-.auth-nav {
+.mob-soc-list {
   display: flex;
-  gap: 40px;
+  justify-content: center;
+  gap: 56px;
 }
-
-.auth-nav .link-mail {
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: var(--heading-text);
-  transition: var(--transition-property) var(--transition-duration)
+.mob-soc-item {
+  width: 40px;
+  height: 40px;
+}
+.mob-soc-link {
+  width: 100%;
+  height: 100%;
+  background-color: var(--accent-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  color: #ffffff;
+  transition: background-color var(--transition-duration)
     cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.auth-nav .link-mail:hover,
-.auth-nav .link-mail:focus {
-  color: var(--accent-color);
-}
-
-.auth-nav .link-tel {
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: var(--body-text);
-  transition: var(--transition-property) var(--transition-duration)
-    cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.auth-nav .link-tel:hover,
-.auth-nav .link-tel:focus {
-  color: var(--accent-color);
+.mob-soc-icon {
+  fill: currentColor;
+  cursor: pointer;
 }
 
 /* Hero */
@@ -208,25 +212,43 @@ a:hover {
 .hero {
   display: flex;
   text-align: center;
-  background-image: var(--grd), url(../images/people-office\ 1.jpg);
   background-color: var(--primary-background-color);
   background-size: cover;
   max-width: 1440px;
   margin: 0 auto;
 }
 
-.hero-container {
+@media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .hero {
+    background-image: var(--grd), url(../images/Dark-bg-mob-2x.jpg);
+  }
+}
+
+/* .hero-container {
   padding-top: 188px;
   padding-bottom: 188px;
+} */
+
+.hero-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0;
+  max-width: 100%;
+  padding: 112px 56px 112px 54px;
 }
 
 .hero-title {
-  max-width: 500px;
+  /* max-width: 500px;
   font-size: 56px;
-  line-height: 1.07;
+  line-height: 1.07; */
+  font-size: 36px;
+  line-height: 1.1;
   letter-spacing: 0.02em;
   color: #ffffff;
-  margin: 0 auto;
+  /* margin: 0 auto; */
   margin-bottom: 48px;
 }
 
@@ -246,7 +268,7 @@ a:hover {
 
 .features {
   padding-top: 96px;
-  padding-bottom: 96px;
+  /* padding-bottom: 96px; */
 }
 
 .section-title {

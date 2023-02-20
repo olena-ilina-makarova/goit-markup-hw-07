@@ -25,7 +25,7 @@
   </head>
   <body>
     <!-- Site header -->
-    <!-- <header class="header">
+    <header class="header">
       <div class="container header-container">
         <nav class="header-navigation">
           <a href="./index.html" class="logo link"
@@ -55,18 +55,88 @@
             </li>
           </ul>
         </address>
+        <btn class="menu-open-btn" data-menu-open><img src="./images/charm_menu-hamburger.jpg"></button>
       </div>
-    </header> -->
+      <div class="mob-menu" data-menu>
+        <div class="container mob-container">
+          <div>
+            <btn class="modal-close" type="button" data-menu-close>
+              <svg class="modal-icon" width="8" height="8">
+                <use
+                  href="./images/symbol-defs.svg#icon-close-black-18dp-2-1"
+                ></use>
+              </svg>
+            </btn>
+            <nav>
+              <ul class="mob-menu-list list">
+                <li class="mob-menu-item">
+                  <a href="./index.html" class="mob-menu-link current link">Studio</a>
+                </li>
+                <li class="mob-menu-item">
+                  <a href="#" class="mob-menu-link link">Portfolio</a>
+                </li>
+                <li class="mob-menu-item">
+                  <a href="#" class="mob-menu-link link">Contacts</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+            <div class="mob-menu-kontakt ">
+            <a href="tel:+110001111111" class="mob-menu-tel link"
+                    >+11 (000) 111-11-11</a>
+                    <a href="mailto:info@devstudio.com" class="mob-menu-mail link"
+                    >info@devstudio.com</a>
+                              <ul class="mob-soc-list list">
+                    <li class="mob-soc-item">
+                      <a href="" class="mob-soc-link link">
+                        <svg class="mob-soc-icon" width="16" height="16">
+                          <use
+                            href="./images/symbol-defs.svg#icon-instagram-2"
+                          ></use>
+                        </svg>
+                      </a>
+                    </li>
+                    <li class="mob-soc-item">
+                      <a href="" class="mob-soc-link link">
+                        <svg class="mob-soc-icon" width="16" height="16">
+                          <use
+                            href="./images/symbol-defs.svg#icon-twitter-1"
+                          ></use>
+                        </svg>
+                      </a>
+                    </li>
+                    <li class="mob-soc-item">
+                      <a href="" class="mob-soc-link link">
+                        <svg class="mob-soc-icon" width="16" height="16">
+                          <use
+                            href="./images/symbol-defs.svg#icon-facebook-1"
+                          ></use>
+                        </svg>
+                      </a>
+                    </li>
+                    <li class="mob-soc-item">
+                      <a href="" class="mob-soc-link link">
+                        <svg class="mob-soc-icon" width="16" height="16">
+                          <use
+                            href="./images/symbol-defs.svg#icon-linkedin-1"
+                          ></use>
+                        </svg>
+                      </a>
+                    </li>
+                  </ul> 
+              </div>
+        </div>       
+          </header>
     <!-- Hero -->
     <main>
-      <!-- <section class="hero">
+      <section class="hero">
         <div class="container hero-container">
           <h1 class="hero-title">Effective Solutions for Your Business</h1>
           <button class="button" data-modal-open type="button">
             Order Service
           </button>
         </div>
-      </section> -->
+      </section>
       <!-- Features -->
       <section class="features">
         <div class="container features-container">
@@ -578,5 +648,6 @@
       </div>
     </div> -->
     <script src="./js/modal.js"></script>
+    <script src="./js/menu.js"></script>
   </body>
 </html>
