@@ -359,12 +359,20 @@ a:hover {
 }
 
 .pic {
-  /* width: calc((100% - 72px) / 4); */
   width: 100%;
   background-color: var(--primary-wh-color);
   margin-top: 72px;
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+}
+
+@media (min-device-pixel-ratio: 2),
+  (-webkit-min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .pic {
+    background-image: url("photo@2x.png");
+  }
 }
 
 .team-title {
@@ -597,7 +605,7 @@ button:focus {
   flex-wrap: wrap;
   justify-content: normal;
   align-items: baseline;
-  gap: 120px;
+  gap: 72px;
 }
 
 .logo-footer-container {

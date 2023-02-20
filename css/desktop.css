@@ -1,6 +1,7 @@
 @media screen and (min-width: 1440px) {
   .container {
     max-width: 1440px;
+    gap: 0;
   }
   .auth-nav {
     display: flex;
@@ -107,9 +108,10 @@
   }
 
   .socialmedia {
+    margin-right: 80px;
   }
 
-  /* .subscribe-form {
-    width: 453px;
-  } */
+  .subscribe-form {
+    padding: 0;
+  }
 }
