@@ -46,6 +46,10 @@ img {
   width: 100%;
 }
 
+.no-scroll {
+  overflow: hidden;
+}
+
 .container {
   width: 100%;
   padding-left: 15px;
@@ -620,8 +624,16 @@ button:focus {
   padding-bottom: 100px;
 }
 
+/* .footer-container {
+  display: flex;
+  justify-content: normal;
+  align-items: baseline;
+  gap: 120px;
+} */
+
 .footer-container {
   display: flex;
+  flex-wrap: wrap;
   justify-content: normal;
   align-items: baseline;
   gap: 120px;
@@ -880,16 +892,38 @@ button:focus {
   background-color: var(--bgk-btn);
 }
 
-.subscribe-form {
+/* .subscribe-form {
   display: flex;
   align-items: flex-end;
   gap: 24px;
+} */
+
+.webstudio {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  padding-top: 96px;
+}
+.socialmedia {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+}
+.subscribe-form {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  gap: 16px;
+  justify-content: center;
 }
 
 .subscribe-wrap {
   position: relative;
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 
 .subscribe-form-submit {

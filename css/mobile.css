@@ -34,4 +34,9 @@
   .customers-item {
     width: calc((100% - 16px) / 2);
   }
+
+  .footer-container {
+    max-width: 428px;
+    flex-wrap: wrap;
+  }
 }
