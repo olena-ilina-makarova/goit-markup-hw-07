@@ -366,6 +366,12 @@ a:hover {
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
+/* .thumb {
+  max-width: 960px;
+  min-width: 320px;
+  margin: 0 auto;
+} */
+
 @media (min-device-pixel-ratio: 2),
   (-webkit-min-device-pixel-ratio: 2),
   (min-resolution: 192dpi),
