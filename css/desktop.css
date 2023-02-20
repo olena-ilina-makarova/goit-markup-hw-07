@@ -29,6 +29,7 @@
 
   .features-container {
     max-width: 1128px;
+    padding-bottom: 120px;
   }
   .pic {
     width: calc((100% - 72px) / 4);
