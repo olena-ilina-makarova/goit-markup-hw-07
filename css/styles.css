@@ -125,12 +125,8 @@ a:hover {
   flex-direction: column;
   justify-content: space-between;
   overflow-y: auto;
+  padding-left: 40px;
 }
-/* .mob-menu > .mob-container {
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-} */
 
 .mob-menu {
   position: fixed;
@@ -142,7 +138,7 @@ a:hover {
   padding-top: 40px;
   padding-bottom: 40px;
 }
-.modal-closee {
+.modal-close {
   display: block;
   margin-left: auto;
 }
@@ -155,10 +151,6 @@ a:hover {
   color: #2e2f42;
   text-transform: capitalize;
 }
-
-/* .mob-menu-list {
-  margin-bottom: 284px;
-} */
 
 .mob-menu-item:not(last-child) {
   margin-bottom: 40px;
@@ -230,11 +222,6 @@ a:hover {
   }
 }
 
-/* .hero-container {
-  padding-top: 188px;
-  padding-bottom: 188px;
-} */
-
 .hero-container {
   display: flex;
   flex-wrap: wrap;
@@ -245,14 +232,11 @@ a:hover {
 }
 
 .hero-title {
-  /* max-width: 500px;
-  font-size: 56px;
-  line-height: 1.07; */
   font-size: 36px;
   line-height: 1.1;
   letter-spacing: 0.02em;
   color: #ffffff;
-  /* margin: 0 auto; */
+
   margin-bottom: 48px;
 }
 
@@ -272,7 +256,6 @@ a:hover {
 
 .features {
   padding-top: 96px;
-  /* padding-bottom: 96px; */
 }
 
 .section-title {
@@ -320,24 +303,10 @@ a:hover {
   margin: -1px;
 }
 
-/* .features-list .title {
-  width: calc((100% - 72px) / 4);
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: var(--heading-text);
-} */
-
 .features-subtitle {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  /* font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: var(--body-text);
-  margin-top: 8px; */
 }
 
 /* Work examples */
@@ -623,13 +592,6 @@ button:focus {
   padding-top: 100px;
   padding-bottom: 100px;
 }
-
-/* .footer-container {
-  display: flex;
-  justify-content: normal;
-  align-items: baseline;
-  gap: 120px;
-} */
 
 .footer-container {
   display: flex;
