@@ -100,6 +100,34 @@
     background-image: var(--grd), url(../images/Dark-bg-tabl.jpg);
   }
 
+  .footer-container {
+    display: flex;
+    column-gap: 24px;
+    row-gap: 72px;
+  }
+  .webstudio {
+    align-items: flex-start;
+    padding: 0;
+    padding-left: 15px;
+    margin: 0;
+  }
+  .socialmedia {
+    align-items: flex-start;
+  }
+  .subscribe-wrap {
+    align-items: flex-start;
+  }
+
+  .subscribe-form {
+    gap: 24px;
+    padding-left: 15px;
+    flex-wrap: nowrap;
+  }
+
+  .subscribe-input {
+    width: 264px;
+  }
+
   @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
