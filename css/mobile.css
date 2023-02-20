@@ -13,10 +13,6 @@
     padding-bottom: 24px;
   }
 
-  /* .subscribe-form {
-    width: 100%; */
-  }
-
   @media screen and (min-width: 480px) {
     .container {
       max-width: 294px;
@@ -58,6 +54,10 @@
     .footer-container {
       max-width: 428px;
       flex-wrap: wrap;
+    }
+
+    .subscribe-input {
+      width: 396px;
     }
   }
 }
