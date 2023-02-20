@@ -853,12 +853,6 @@ button:focus {
   background-color: var(--bgk-btn);
 }
 
-/* .subscribe-form {
-  display: flex;
-  align-items: flex-end;
-  gap: 24px;
-} */
-
 .webstudio {
   display: flex;
   flex-direction: column;
@@ -878,6 +872,7 @@ button:focus {
   align-items: flex-end;
   gap: 16px;
   justify-content: center;
+  width: 100%;
 }
 
 .subscribe-wrap {
