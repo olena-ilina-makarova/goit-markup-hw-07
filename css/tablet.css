@@ -14,13 +14,18 @@
   }
 
   .container.header-container {
-    padding-bottom: 8px;
+    padding-bottom: 11px;
   }
 
   .header-navigation {
     display: flex;
     align-items: center;
     margin-right: auto;
+  }
+  .hero-title {
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
   }
 
   .current {
@@ -84,7 +89,7 @@
   }
 
   .auth-nav .link-mail {
-    font-size: 16px;
+    font-size: 12px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--heading-text);
@@ -98,7 +103,7 @@
   }
 
   .auth-nav .link-tel {
-    font-size: 16px;
+    font-size: 12px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--body-text);
@@ -127,6 +132,7 @@
   }
   .socialmedia {
     align-items: flex-start;
+    margin: 0;
   }
   .subscribe-wrap {
     align-items: flex-start;
@@ -136,6 +142,7 @@
     gap: 24px;
     padding-left: 15px;
     flex-wrap: nowrap;
+    width: auto;
   }
 
   .subscribe-input {
