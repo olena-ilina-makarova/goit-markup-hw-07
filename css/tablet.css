@@ -16,8 +16,8 @@
 
   .container.header-container {
     padding-bottom: 11px;
-    margin-left: 0px;
-    margin-right: 0px;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .header-navigation {
