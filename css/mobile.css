@@ -1,8 +1,13 @@
 @media screen and (min-width: 320px) {
-  .gamburger {
+  /* .gamburger {
     width: 24px;
     height: 24px;
     margin-left: auto;
+  } */
+
+  .menu-open-icon {
+    stroke: black;
+    cursor: pointer;
   }
 
   .container.header-container {
