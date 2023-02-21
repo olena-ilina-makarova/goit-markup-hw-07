@@ -9,7 +9,6 @@
 
   .header-container {
     width: 768px;
-    /* width: 768px; */
     display: flex;
     align-items: center;
     padding-top: 24px;
@@ -31,10 +30,6 @@
     line-height: 1.07;
     letter-spacing: 0.02em;
   }
-
-  /* .examples {
-    display: none;
-  } */
 
   .current {
     position: relative;
