@@ -1,6 +1,6 @@
 @media screen and (min-width: 768px) {
   .container {
-    width: 582px;
+    max-width: 736px;
   }
 
   .header {
@@ -8,6 +8,7 @@
   }
 
   .header-container {
+    width: 100%;
     display: flex;
     align-items: center;
     padding-top: 24px;
@@ -142,6 +143,7 @@
     padding-bottom: 96px;
   }
   .footer-container {
+    max-width: 552px;
     display: flex;
     column-gap: 24px;
     row-gap: 72px;
@@ -150,7 +152,7 @@
   .webstudio {
     align-items: flex-start;
     padding: 0;
-    padding-left: 15px;
+    /* padding-left: 15px; */
     margin: 0;
   }
   .socialmedia {
@@ -163,7 +165,7 @@
 
   .subscribe-form {
     gap: 24px;
-    padding-left: 15px;
+    /* padding-left: 15px; */
     flex-wrap: nowrap;
     width: auto;
   }
@@ -197,6 +199,9 @@
   .features-container {
     width: 736px;
   }
+  /* .container.customers-container {
+    width: 736px;
+  } */
   .features-list {
     row-gap: 72px;
     column-gap: 24px;
