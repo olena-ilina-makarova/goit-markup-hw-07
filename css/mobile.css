@@ -42,8 +42,9 @@
       padding-right: 16px;
     }
     .features-container {
-      max-width: 100%;
+      width: 428px;
     }
+
     .container.hero-container {
       max-width: 1440px;
     }
