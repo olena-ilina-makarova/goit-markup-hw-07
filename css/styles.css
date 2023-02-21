@@ -278,8 +278,9 @@ a:hover {
 
 .features-list {
   display: flex;
-  gap: 72px;
+  gap: 64px;
   flex-wrap: wrap;
+  padding-top: 96px;
 }
 
 .features-item {
@@ -354,8 +355,9 @@ a:hover {
   margin-top: 72px;
   display: flex;
   margin: 0px auto;
-  gap: 24px;
+  /* gap: 24px; */
   flex-wrap: wrap;
+  column-gap: 24px;
 }
 
 .pic {

@@ -51,6 +51,10 @@
     padding-bottom: 120px;
   }
 
+  .features-list {
+    padding-top: 0px;
+  }
+
   .features-item {
     width: calc((100% - 24px) / 4);
   }
