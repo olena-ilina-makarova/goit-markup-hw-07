@@ -19,7 +19,7 @@
     }
 
     .hero {
-      background-image: var(--grd), url(../images/Dark-bg-mob.jpg);
+      background-image: var(--grd), url(../images/Dark-bg-tabl.jpg);
     }
 
     @media (min-device-pixel-ratio: 2),

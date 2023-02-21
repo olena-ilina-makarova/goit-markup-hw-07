@@ -221,6 +221,10 @@ a:hover {
   }
 }
 
+.hero {
+  background-image: var(--grd), url(../images/Dark-bg-mob.jpg);
+}
+
 .hero-container {
   justify-content: center;
   padding: 0;
