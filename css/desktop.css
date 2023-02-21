@@ -70,6 +70,7 @@
     width: calc((100% - 48px) / 3);
   }
   .examples-container {
+    max-width: 1128px;
     display: table;
     /* padding-left: 156px;
     padding-right: 156px; */
