@@ -1,6 +1,6 @@
 @media screen and (min-width: 768px) {
   .container {
-    max-width: 582px;
+    width: 582px;
   }
 
   .header {
@@ -15,6 +15,8 @@
 
   .container.header-container {
     padding-bottom: 11px;
+    margin-left: 0px;
+    margin-right: 0px;
   }
 
   .header-navigation {
@@ -27,6 +29,10 @@
     line-height: 1.07;
     letter-spacing: 0.02em;
   }
+
+  /* .examples {
+    display: none;
+  } */
 
   .current {
     position: relative;
@@ -53,6 +59,7 @@
 
   .address {
     display: flex;
+    margin-left: 118px;
   }
 
   .menu-open-btn {
@@ -188,7 +195,7 @@
     max-width: 602px;
   }
   .features-container {
-    max-width: 766px;
+    width: 736px;
   }
   .features-list {
     row-gap: 72px;

@@ -1,13 +1,13 @@
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1200px) {
   .container {
-    max-width: 1440px;
+    width: 1200px;
     gap: 0;
   }
   .auth-nav {
     display: flex;
     gap: 40px;
     flex-direction: row;
-    margin-right: 156px;
+    margin-right: 0;
   }
 
   .auth-nav .link-mail {
@@ -18,9 +18,14 @@
     font-size: 16px;
   }
 
+  .header-navigation {
+    margin: 0;
+  }
+
   .container.header-container {
     max-width: 1440px;
     padding-bottom: 20px;
+    margin: 0 auto;
   }
   .logo {
     margin-left: 156px;
@@ -66,8 +71,8 @@
   }
   .examples-container {
     display: table;
-    padding-left: 156px;
-    padding-right: 156px;
+    /* padding-left: 156px;
+    padding-right: 156px; */
   }
   .team-container {
     max-width: 1128px;
