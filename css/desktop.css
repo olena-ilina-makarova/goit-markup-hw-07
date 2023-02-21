@@ -35,6 +35,7 @@
     background-image: var(--grd), url(../images/people-office\ 1.jpg);
   }
   .hero-container {
+    max-width: 1440px;
     padding-top: 188px;
     padding-bottom: 188px;
   }
@@ -72,8 +73,6 @@
   .examples-container {
     max-width: 1128px;
     display: table;
-    /* padding-left: 156px;
-    padding-right: 156px; */
   }
   .team-container {
     max-width: 1128px;

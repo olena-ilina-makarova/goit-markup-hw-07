@@ -206,7 +206,6 @@ a:hover {
 /* Hero */
 
 .hero {
-  display: flex;
   text-align: center;
   background-color: var(--primary-background-color);
   background-size: cover;
