@@ -14,9 +14,9 @@
   }
 
   @media screen and (min-width: 480px) {
-    .container {
+    /* .container {
       max-width: 428px;
-    }
+    } */
 
     .hero {
       background-image: var(--grd), url(../images/Dark-bg-tabl.jpg);
